@@ -1,0 +1,98 @@
+﻿@{
+    ViewData["Title"] = "Početna";
+}
+
+<style>
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f4f6f9;
+        margin: 0;
+        padding: 0;
+        color: #333;
+    }
+
+    .container {
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 40px 20px;
+    }
+
+    .text-center {
+        text-align: center;
+    }
+
+    h1.display-4 {
+        font-size: 3rem;
+        margin-bottom: 10px;
+        color: #2c3e50;
+    }
+
+    .lead {
+        font-size: 1.25rem;
+        color: #555;
+        margin-bottom: 20px;
+    }
+
+    .btn {
+        padding: 12px 24px;
+        font-size: 1rem;
+        border: none;
+        border-radius: 8px;
+        background-color: #007bff;
+        color: white;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+    }
+
+        .btn:hover {
+            background-color: #0056b3;
+        }
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 40px;
+    }
+
+    .col-md-4 {
+        flex: 1 1 30%;
+        background-color: white;
+        border-radius: 12px;
+        padding: 20px;
+        margin: 10px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+        transition: transform 0.3s ease;
+    }
+
+        .col-md-4:hover {
+            transform: translateY(-5px);
+        }
+    }
+</style>
+
+<div class="container">
+    <div class="text-center">
+        <h1 class="display-4">Dobrodošli na ToDo Aplikaciju</h1>
+        <p class="lead">Organizujte svoje obaveze jednostavno i efikasno.</p>
+        <p>Naš sistem vam omogućava da kreirate, ažurirate i brišete zadatke kako biste lakše pratili svoje dnevne obaveze.</p>
+
+        <a class="btn" href="/Task" role="button">Započni odmah</a>
+    </div>
+
+    <div class="row">
+        <div class="col-md-4 text-center">
+            <h3>Jednostavno korišćenje</h3>
+            <p>Intuitivan interfejs vam omogućava da lako upravljate svojim zadacima.</p>
+        </div>
+        <div class="col-md-4 text-center">
+            <h3>Uvek dostupno</h3>
+            <p>Pristupite svojoj listi zadataka sa bilo kog uređaja, bilo kada.</p>
+        </div>
+        <div class="col-md-4 text-center">
+            <h3>Besplatno</h3>
+            <p>Aplikacija je potpuno besplatna za korišćenje bez ikakvih ograničenja.</p>
+        </div>
+    </div>
+</div>
+    

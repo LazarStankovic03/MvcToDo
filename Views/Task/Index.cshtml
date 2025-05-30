@@ -1,0 +1,163 @@
+﻿@model IEnumerable<MvcMovie.Models.Task>
+@using MvcMovie.Models
+@{
+    ViewData["Title"] = "Tasks";
+}
+<h1 class="page-title">@ViewData["Title"]</h1>
+<a asp-action="Create" class="create-link">+ Create New Task</a>
+<div class="container">
+    @foreach (var status in Enum.GetValues(typeof(MovieStatus)).Cast<MovieStatus>())
+    {
+        <div id="@status" class="column" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <h2>@status</h2>
+            @foreach (var task in Model.Where(t => t.Status == status))
+            {
+                <div class="task-card"
+                     draggable="true"
+                     ondragstart="drag(event)"
+                     data-id="@task.Id"
+                     id="task-@task.Id">
+                    <div class="task-field"><strong>Title:</strong> @task.Title</div>
+                    <div class="task-field"><strong>Due:</strong> @task.DueDate.ToString("yyyy-MM-dd")</div>
+                    <div class="task-field"><strong>Priority:</strong> @task.Priority</div>
+                    <div class="task-actions">
+                        <a asp-action="Edit" asp-route-id="@task.Id">Edit</a>
+                        <a asp-action="Delete" asp-route-id="@task.Id">Delete</a>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+</div>
+<script>
+    function allowDrop(ev) {
+        ev.preventDefault();
+    }
+    function drag(ev) {
+        ev.dataTransfer.setData("text", ev.target.id);
+    }
+    function drop(ev) {
+        ev.preventDefault();
+        const data = ev.dataTransfer.getData("text");
+        const taskElement = document.getElementById(data);
+        const container = ev.currentTarget;
+        container.appendChild(taskElement);
+        const taskId = taskElement.getAttribute("data-id");
+        const newStatus = container.id;
+        const token = localStorage.getItem("jwt");
+        fetch(`/Task/UpdateData?id=${taskId}&newStatus=${newStatus}`, {
+            method: 'POST',
+            headers: {
+                'Authorization': `Bearer ${token}`
+            }
+        })
+        .then(res => {
+            if (!res.ok) alert("Greška prilikom ažuriranja.");
+        });
+    }
+</script>
+
+<style>
+    body {
+        background-color: #FFF1D5;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .page-title {
+        text-align: center;
+        margin: 30px 0;
+        font-size: 32px;
+        color: #333;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        padding: 20px;
+        flex-wrap: wrap;
+    }
+
+    .column {
+        flex: 1;
+        min-width: 300px;
+        max-width: 400px;
+        border-radius: 12px;
+        padding: 20px;
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+        transition: 0.3s;
+    }
+
+        .column:nth-child(1) {
+            background-color: #9FB3DF;
+        }
+        /* ToDo */
+        .column:nth-child(2) {
+            background-color: #9EC6F3;
+        }
+        /* Doing */
+        .column:nth-child(3) {
+            background-color: #BDDDE4;
+        }
+        /* Finished */
+
+        .column h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #333;
+            font-size: 22px;
+        }
+
+    .task-card {
+        border: 1px solid #ccc !important;
+        background-color: white;
+        padding: 15px;
+        border-radius: 8px;
+        margin-bottom: 15px;
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+        transition: background-color 0.2s ease;
+    }
+
+        .task-card:hover {
+            background-color: #f0f8ff;
+        }
+
+    .task-field {
+        margin: 5px 0;
+        font-size: 14px;
+        color: #444;
+    }
+
+    .task-actions {
+        margin-top: 10px;
+    }
+
+        .task-actions a {
+            margin-right: 10px;
+            color: #333;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+            .task-actions a:hover {
+                text-decoration: underline;
+            }
+
+    .create-link {
+        display: block;
+        text-align: center;
+        margin: 0 auto 20px auto;
+        max-width: 220px;
+        background-color: #9FB3DF;
+        padding: 10px 20px;
+        color: white;
+        border-radius: 8px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+        .create-link:hover {
+            background-color: #7d9ad2;
+        }
+
+</style>

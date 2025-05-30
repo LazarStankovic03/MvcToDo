@@ -1,0 +1,329 @@
+﻿@model PaginatedList<MvcMovie.Models.User>
+@{
+    ViewData["Title"] = "Admin Panel";
+}
+<h2>Admin Panel</h2>
+
+<form asp-controller="AdminPanel" asp-action="Index" method="get" class="search-form">
+    <input type="text" name="searchString" value="@Context.Request.Query["searchString"]" placeholder="Search users..." />
+    <button type="submit">Search</button>
+</form>
+
+<div class="pagination">
+    @if (Model.HasPreviousPage)
+    {
+        <a asp-action="Index"
+           asp-route-pageNumber="@(Model.PageIndex - 1)"
+           asp-route-searchString="@Context.Request.Query["searchString"]">Previous</a>
+    }
+    <span>Page @Model.PageIndex of @Model.TotalPages</span>
+    @if (Model.HasNextPage)
+    {
+        <a asp-action="Index"
+           asp-route-pageNumber="@(Model.PageIndex + 1)"
+           asp-route-searchString="@Context.Request.Query["searchString"]">Next</a>
+    }
+</div>
+
+<div class="table-wrapper">
+    <table class="fl-table">
+        <thead>
+            <tr>
+                <th>UserID</th>
+                @foreach (var user in Model)
+                {
+                    <th>@(user.UserId)</th>
+
+                }
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Username</td>
+                @foreach (var user in Model)
+                {
+                    <td>@(user.Username)</td>
+
+                }
+
+            </tr>
+            <tr>
+                <td>Email</td>
+                @foreach (var user in Model)
+                {
+                    <td>@(user.Mail)</td>
+
+                }
+            </tr>
+            <tr>
+                <td>IsActive</td>
+                @foreach (var user in Model)
+                {
+                    <td>@(user.IsActive == 1 ? "Yes" : "No")</td>
+
+                }
+            </tr>
+            <tr>
+                <td>Role</td>
+                @foreach (var user in Model)
+                {
+                    <td>
+                        @switch (user.RoleId)
+                        {
+                            case 1:
+                                @:Admin
+                                break;
+                            case 2:
+                                @:Moderator
+                                break;
+                            case 3:
+                                @:User
+                                break;
+                            default:
+                                @:Nepoznat Role
+                                break;
+                        }
+                    </td>
+                }
+            </tr>
+            <tr>
+                <td>Created On</td>
+                @foreach (var user in Model)
+                {
+                    <td>@user.CreatedOn.ToString("dd.MM.yyyy")</td>
+                }
+            </tr>
+            <tr>
+                <td>View Tasks</td>
+                @foreach (var user in Model)
+                {
+                    <td>
+                        <a asp-action="UserTasks" asp-route-id="@user.UserId">View Tasks</a>
+                    </td>
+                }
+            </tr>
+            <tr>
+                <td>Edit</td>
+                @foreach (var user in Model)
+                {
+                    <td><a asp-action="EditUser" asp-route-id="@user.UserId">Edit</a></td>
+                }
+
+            </tr>
+            <tr>
+                <td>Ban</td>
+                @foreach (var user in Model)
+                {
+
+                    <td><a asp-action="DeleteUser" asp-route-id="@user.UserId">X</a></td>
+                }
+
+            </tr>
+
+
+        <tbody>
+    </table>
+</div>
+<div class="pagination">
+    @if (Model.HasPreviousPage)
+    {
+        <a asp-action="Index"
+           asp-route-pageNumber="@(Model.PageIndex - 1)"
+           asp-route-searchString="@Context.Request.Query["searchString"]">Previous</a>
+    }
+    <span>Page @Model.PageIndex of @Model.TotalPages</span>
+    @if (Model.HasNextPage)
+    {
+        <a asp-action="Index"
+           asp-route-pageNumber="@(Model.PageIndex + 1)"
+           asp-route-searchString="@Context.Request.Query["searchString"]">Next</a>
+    }
+</div>
+
+
+<style>
+    * {
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+    }
+
+    body {
+        -webkit-font-smoothing: antialiased;
+        background: rgb(255, 241, 213);
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 18px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color: #9FB3DF;
+        padding: 30px 0;
+    }
+
+
+    .table-wrapper {
+        margin: 10px 70px 70px;
+        box-shadow: 0px 35px 50px rgba( 0, 0, 0, 0.2 );
+    }
+
+    .fl-table {
+        border-radius: 5px;
+        font-size: 12px;
+        font-weight: normal;
+        border: none;
+        border-collapse: collapse;
+        width: 100%;
+        max-width: 100%;
+        white-space: nowrap;
+        background-color: white;
+    }
+
+    .fl-table td, .fl-table th {
+        text-align: center;
+        padding: 8px;
+    }
+
+    .fl-table td {
+        border-right: 1px solid #f8f8f8;
+        font-size: 12px;
+    }
+
+    .fl-table thead th {
+        color: #9FB3DF;
+        background: rgb(255, 241, 213);
+    }
+
+
+    .fl-table thead th:nth-child(odd) {
+        color: white;
+        background: #BDDDE4;
+    }
+
+    .fl-table tr:nth-child(even) {
+        background: #F8F8F8;
+    }
+
+
+
+    .table-wrapper:before {
+        display: block;
+        text-align: right;
+        font-size: 11px;
+        color: white;
+        padding: 0 0 10px;
+    }
+
+    .fl-table thead, .fl-table tbody, .fl-table thead th {
+        display: block;
+    }
+
+        .fl-table thead th:last-child {
+            border-bottom: none;
+        }
+
+    .fl-table thead {
+        float: left;
+    }
+
+    .fl-table tbody {
+        width: auto;
+        position: relative;
+        overflow-x: auto;
+    }
+
+    .fl-table td, .fl-table th {
+        padding: 20px .625em .625em .625em;
+        height: 60px;
+        vertical-align: middle;
+        box-sizing: border-box;
+        overflow-x: hidden;
+        overflow-y: auto;
+        width: 120px;
+        font-size: 13px;
+        text-overflow: ellipsis;
+    }
+
+    .fl-table thead th {
+        text-align: left;
+        border-bottom: 1px solid #f7f7f9;
+    }
+
+    .fl-table tbody tr {
+        display: table-cell;
+    }
+
+        .fl-table tbody tr:nth-child(odd) {
+            background: none;
+        }
+
+    .fl-table tr:nth-child(even) {
+        background: transparent;
+    }
+
+    .fl-table tr td:nth-child(odd) {
+        background: #F8F8F8;
+        border-right: 1px solid #E6E4E4;
+    }
+
+    .fl-table tr td:nth-child(even) {
+        border-right: 1px solid #E6E4E4;
+    }
+
+    .fl-table tbody td {
+        display: block;
+        text-align: center;
+    }
+
+    }
+
+    .search-form {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .search-form input[type="text"] {
+        width: 250px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 14px;
+    }
+
+    .search-form button {
+        padding: 10px 16px;
+        background-color: #9FB3DF;
+        border: none;
+        border-radius: 4px;
+        color: white;
+        font-size: 14px;
+        cursor: pointer;
+    }
+
+    .search-form button:hover {
+        background-color: #7d9ad0;
+    }
+
+
+    .pagination {
+        text-align: center;
+        margin-top: 20px;
+        margin-left : 65px;
+    }
+
+    .pagination a {
+        margin: 0 5px;
+        text-decoration: none;
+        background-color: #9FB3DF;
+        color: white;
+        padding: 6px 12px;
+        border-radius: 4px;
+    }
+
+    .pagination span {
+        margin: 0 10px;
+    }
+</style>
