@@ -17,81 +17,81 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MvcMovie
 build_property.RootNamespace = MvcMovie
-build_property.ProjectDir = C:\Users\lazar\source\repos\MvcMovie\
+build_property.ProjectDir = C:\Users\lazar\Desktop\MvcToDo\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\lazar\source\repos\MvcMovie
+build_property.MSBuildProjectDirectory = C:\Users\lazar\Desktop\MvcToDo
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/lazar/source/repos/MvcMovie/Pages/_ValidationScriptsPartial.cshtml]
+[C:/Users/lazar/Desktop/MvcToDo/Pages/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lazar/source/repos/MvcMovie/Views/AdminPanel/DeleteUser.cshtml]
+[C:/Users/lazar/Desktop/MvcToDo/Views/AdminPanel/DeleteUser.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5QYW5lbFxEZWxldGVVc2VyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lazar/source/repos/MvcMovie/Views/AdminPanel/EditUser.cshtml]
+[C:/Users/lazar/Desktop/MvcToDo/Views/AdminPanel/EditUser.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5QYW5lbFxFZGl0VXNlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lazar/source/repos/MvcMovie/Views/AdminPanel/Index.cshtml]
+[C:/Users/lazar/Desktop/MvcToDo/Views/AdminPanel/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5QYW5lbFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lazar/source/repos/MvcMovie/Views/AdminPanel/UserTasks.cshtml]
+[C:/Users/lazar/Desktop/MvcToDo/Views/AdminPanel/UserTasks.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5QYW5lbFxVc2VyVGFza3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lazar/source/repos/MvcMovie/Views/Home/Index.cshtml]
+[C:/Users/lazar/Desktop/MvcToDo/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lazar/source/repos/MvcMovie/Views/Home/Login.cshtml]
+[C:/Users/lazar/Desktop/MvcToDo/Views/Home/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lazar/source/repos/MvcMovie/Views/Home/Register.cshtml]
+[C:/Users/lazar/Desktop/MvcToDo/Views/Home/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lazar/source/repos/MvcMovie/Views/Shared/Error.cshtml]
+[C:/Users/lazar/Desktop/MvcToDo/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lazar/source/repos/MvcMovie/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/lazar/Desktop/MvcToDo/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lazar/source/repos/MvcMovie/Views/Task/Create.cshtml]
+[C:/Users/lazar/Desktop/MvcToDo/Views/Task/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFza1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lazar/source/repos/MvcMovie/Views/Task/Delete.cshtml]
+[C:/Users/lazar/Desktop/MvcToDo/Views/Task/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFza1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lazar/source/repos/MvcMovie/Views/Task/Edit.cshtml]
+[C:/Users/lazar/Desktop/MvcToDo/Views/Task/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFza1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lazar/source/repos/MvcMovie/Views/Task/Index.cshtml]
+[C:/Users/lazar/Desktop/MvcToDo/Views/Task/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFza1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lazar/source/repos/MvcMovie/Views/_ViewImports.cshtml]
+[C:/Users/lazar/Desktop/MvcToDo/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lazar/source/repos/MvcMovie/Views/_ViewStart.cshtml]
+[C:/Users/lazar/Desktop/MvcToDo/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lazar/source/repos/MvcMovie/Views/Shared/_Layout.cshtml]
+[C:/Users/lazar/Desktop/MvcToDo/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-0uvum7rpp4

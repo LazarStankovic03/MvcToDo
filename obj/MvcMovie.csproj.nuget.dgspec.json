@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lazar\\source\\repos\\MvcMovie\\MvcMovie.csproj": {}
+    "C:\\Users\\lazar\\Desktop\\MvcToDo\\MvcMovie.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lazar\\source\\repos\\MvcMovie\\MvcMovie.csproj": {
+    "C:\\Users\\lazar\\Desktop\\MvcToDo\\MvcMovie.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lazar\\source\\repos\\MvcMovie\\MvcMovie.csproj",
+        "projectUniqueName": "C:\\Users\\lazar\\Desktop\\MvcToDo\\MvcMovie.csproj",
         "projectName": "MvcMovie",
-        "projectPath": "C:\\Users\\lazar\\source\\repos\\MvcMovie\\MvcMovie.csproj",
+        "projectPath": "C:\\Users\\lazar\\Desktop\\MvcToDo\\MvcMovie.csproj",
         "packagesPath": "C:\\Users\\lazar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lazar\\source\\repos\\MvcMovie\\obj\\",
+        "outputPath": "C:\\Users\\lazar\\Desktop\\MvcToDo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
