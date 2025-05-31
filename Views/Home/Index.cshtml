@@ -5,7 +5,7 @@
 <style>
     body {
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        background-color: #f4f6f9;
+        background-color: #fff6ea;
         margin: 0;
         padding: 0;
         color: #333;
@@ -22,19 +22,20 @@
     }
 
     h1.display-4 {
-        font-size: 3rem;
-        margin-bottom: 10px;
+        font-size: 2.8rem;
+        margin-bottom: 15px;
         color: #2c3e50;
+        font-weight: 600;
     }
 
     .lead {
-        font-size: 1.25rem;
+        font-size: 1.15rem;
         color: #555;
-        margin-bottom: 20px;
+        margin-bottom: 24px;
     }
 
     .btn {
-        padding: 12px 24px;
+        padding: 12px 26px;
         font-size: 1rem;
         border: none;
         border-radius: 8px;
@@ -52,47 +53,57 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        margin-top: 40px;
+        margin-top: 50px;
     }
 
     .col-md-4 {
         flex: 1 1 30%;
-        background-color: white;
-        border-radius: 12px;
-        padding: 20px;
-        margin: 10px;
-        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-        transition: transform 0.3s ease;
+        background-color: #fff;
+        border-radius: 10px;
+        padding: 24px;
+        margin: 12px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04);
+        transition: transform 0.25s ease;
+        text-align: center;
     }
 
         .col-md-4:hover {
-            transform: translateY(-5px);
+            transform: translateY(-4px);
         }
-    }
+
+        .col-md-4 h3 {
+            color: #2c3e50;
+            margin-bottom: 12px;
+        }
+
+        .col-md-4 p {
+            color: #666;
+            font-size: 0.95rem;
+            line-height: 1.5;
+        }
 </style>
 
 <div class="container">
     <div class="text-center">
-        <h1 class="display-4">Dobrodošli na ToDo Aplikaciju</h1>
-        <p class="lead">Organizujte svoje obaveze jednostavno i efikasno.</p>
-        <p>Naš sistem vam omogućava da kreirate, ažurirate i brišete zadatke kako biste lakše pratili svoje dnevne obaveze.</p>
+        <h1 class="display-4">Dobrodošli!</h1>
+        <p class="lead">Ako voliš da znaš gde ti je glava — počni od svojih zadataka.</p>
+        <p>Aplikacija ti pomaže da ne zaboraviš bitne stvari, bilo da su to obaveze, ideje ili "da ne zaboravim kupiti kafu".</p>
 
-        <a class="btn" href="/Task" role="button">Započni odmah</a>
+        <a class="btn" href="/Task" role="button">Pogledaj svoje zadatke</a>
     </div>
 
     <div class="row">
-        <div class="col-md-4 text-center">
-            <h3>Jednostavno korišćenje</h3>
-            <p>Intuitivan interfejs vam omogućava da lako upravljate svojim zadacima.</p>
+        <div class="col-md-4">
+            <h3>Bez komplikacija</h3>
+            <p>Dodaj zadatke u par klikova — nije ti potrebna nikakva obuka ni vodič.</p>
         </div>
-        <div class="col-md-4 text-center">
-            <h3>Uvek dostupno</h3>
-            <p>Pristupite svojoj listi zadataka sa bilo kog uređaja, bilo kada.</p>
+        <div class="col-md-4">
+            <h3>Pristupačno uvek</h3>
+            <p>Bilo da si na poslu, kod kuće ili u busu — tvoj to-do ti je u džepu.</p>
         </div>
-        <div class="col-md-4 text-center">
-            <h3>Besplatno</h3>
-            <p>Aplikacija je potpuno besplatna za korišćenje bez ikakvih ograničenja.</p>
+        <div class="col-md-4">
+            <h3>Bez plaćanja</h3>
+            <p>Ne tražimo karticu. Ni sutra, ni sledeće nedelje. Sve funkcije su besplatne.</p>
         </div>
     </div>
 </div>
-    

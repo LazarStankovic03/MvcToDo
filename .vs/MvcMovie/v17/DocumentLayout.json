@@ -1,12 +1,241 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\lazar\\Desktop\\MvcToDo\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA6966A-DBE8-5BC4-C47E-FD3264429C99}|MvcMovie.csproj|c:\\users\\lazar\\desktop\\mvctodo\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2BA6966A-DBE8-5BC4-C47E-FD3264429C99}|MvcMovie.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA6966A-DBE8-5BC4-C47E-FD3264429C99}|MvcMovie.csproj|c:\\users\\lazar\\desktop\\mvctodo\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2BA6966A-DBE8-5BC4-C47E-FD3264429C99}|MvcMovie.csproj|solutionrelative:views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA6966A-DBE8-5BC4-C47E-FD3264429C99}|MvcMovie.csproj|c:\\users\\lazar\\desktop\\mvctodo\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2BA6966A-DBE8-5BC4-C47E-FD3264429C99}|MvcMovie.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA6966A-DBE8-5BC4-C47E-FD3264429C99}|MvcMovie.csproj|c:\\users\\lazar\\desktop\\mvctodo\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{2BA6966A-DBE8-5BC4-C47E-FD3264429C99}|MvcMovie.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA6966A-DBE8-5BC4-C47E-FD3264429C99}|MvcMovie.csproj|c:\\users\\lazar\\desktop\\mvctodo\\views\\adminpanel\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2BA6966A-DBE8-5BC4-C47E-FD3264429C99}|MvcMovie.csproj|solutionrelative:views\\adminpanel\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA6966A-DBE8-5BC4-C47E-FD3264429C99}|MvcMovie.csproj|c:\\users\\lazar\\desktop\\mvctodo\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BA6966A-DBE8-5BC4-C47E-FD3264429C99}|MvcMovie.csproj|solutionrelative:controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA6966A-DBE8-5BC4-C47E-FD3264429C99}|MvcMovie.csproj|c:\\users\\lazar\\desktop\\mvctodo\\views\\adminpanel\\usertasks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2BA6966A-DBE8-5BC4-C47E-FD3264429C99}|MvcMovie.csproj|solutionrelative:views\\adminpanel\\usertasks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA6966A-DBE8-5BC4-C47E-FD3264429C99}|MvcMovie.csproj|c:\\users\\lazar\\desktop\\mvctodo\\controllers\\adminpanelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BA6966A-DBE8-5BC4-C47E-FD3264429C99}|MvcMovie.csproj|solutionrelative:controllers\\adminpanelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA6966A-DBE8-5BC4-C47E-FD3264429C99}|MvcMovie.csproj|c:\\users\\lazar\\desktop\\mvctodo\\views\\home\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2BA6966A-DBE8-5BC4-C47E-FD3264429C99}|MvcMovie.csproj|solutionrelative:views\\home\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA6966A-DBE8-5BC4-C47E-FD3264429C99}|MvcMovie.csproj|c:\\users\\lazar\\desktop\\mvctodo\\views\\adminpanel\\edituser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2BA6966A-DBE8-5BC4-C47E-FD3264429C99}|MvcMovie.csproj|solutionrelative:views\\adminpanel\\edituser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA6966A-DBE8-5BC4-C47E-FD3264429C99}|MvcMovie.csproj|c:\\users\\lazar\\desktop\\mvctodo\\views\\adminpanel\\deleteuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2BA6966A-DBE8-5BC4-C47E-FD3264429C99}|MvcMovie.csproj|solutionrelative:views\\adminpanel\\deleteuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA6966A-DBE8-5BC4-C47E-FD3264429C99}|MvcMovie.csproj|c:\\users\\lazar\\desktop\\mvctodo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BA6966A-DBE8-5BC4-C47E-FD3264429C99}|MvcMovie.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA6966A-DBE8-5BC4-C47E-FD3264429C99}|MvcMovie.csproj|c:\\users\\lazar\\desktop\\mvctodo\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BA6966A-DBE8-5BC4-C47E-FD3264429C99}|MvcMovie.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\lazar\\Desktop\\MvcToDo\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\lazar\\Desktop\\MvcToDo\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAABMAAAAAAAAAAAAiwD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-31T17:18:42.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\lazar\\Desktop\\MvcToDo\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\lazar\\Desktop\\MvcToDo\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-31T17:18:31.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AdminPanelController.cs",
+              "DocumentMoniker": "C:\\Users\\lazar\\Desktop\\MvcToDo\\Controllers\\AdminPanelController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminPanelController.cs",
+              "ToolTip": "C:\\Users\\lazar\\Desktop\\MvcToDo\\Controllers\\AdminPanelController.cs",
+              "RelativeToolTip": "Controllers\\AdminPanelController.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAnwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T17:07:39.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\lazar\\Desktop\\MvcToDo\\Views\\Home\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Register.cshtml",
+              "ToolTip": "C:\\Users\\lazar\\Desktop\\MvcToDo\\Views\\Home\\Register.cshtml",
+              "RelativeToolTip": "Views\\Home\\Register.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-31T17:05:05.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lazar\\Desktop\\MvcToDo\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lazar\\Desktop\\MvcToDo\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-31T17:05:01.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\lazar\\Desktop\\MvcToDo\\Views\\Home\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Login.cshtml",
+              "ToolTip": "C:\\Users\\lazar\\Desktop\\MvcToDo\\Views\\Home\\Login.cshtml",
+              "RelativeToolTip": "Views\\Home\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-31T17:05:00.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserTasks.cshtml",
+              "DocumentMoniker": "C:\\Users\\lazar\\Desktop\\MvcToDo\\Views\\AdminPanel\\UserTasks.cshtml",
+              "RelativeDocumentMoniker": "Views\\AdminPanel\\UserTasks.cshtml",
+              "ToolTip": "C:\\Users\\lazar\\Desktop\\MvcToDo\\Views\\AdminPanel\\UserTasks.cshtml",
+              "RelativeToolTip": "Views\\AdminPanel\\UserTasks.cshtml",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-31T17:04:56.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lazar\\Desktop\\MvcToDo\\Views\\AdminPanel\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\AdminPanel\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lazar\\Desktop\\MvcToDo\\Views\\AdminPanel\\Index.cshtml",
+              "RelativeToolTip": "Views\\AdminPanel\\Index.cshtml",
+              "ViewState": "AgIAAAYBAAAAAAAAAAAAACsBAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-31T17:04:55.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TaskController.cs",
+              "DocumentMoniker": "C:\\Users\\lazar\\Desktop\\MvcToDo\\Controllers\\TaskController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TaskController.cs",
+              "ToolTip": "C:\\Users\\lazar\\Desktop\\MvcToDo\\Controllers\\TaskController.cs",
+              "RelativeToolTip": "Controllers\\TaskController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAYwIwAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T16:17:08.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EditUser.cshtml",
+              "DocumentMoniker": "C:\\Users\\lazar\\Desktop\\MvcToDo\\Views\\AdminPanel\\EditUser.cshtml",
+              "RelativeDocumentMoniker": "Views\\AdminPanel\\EditUser.cshtml",
+              "ToolTip": "C:\\Users\\lazar\\Desktop\\MvcToDo\\Views\\AdminPanel\\EditUser.cshtml",
+              "RelativeToolTip": "Views\\AdminPanel\\EditUser.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-31T17:04:54.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DeleteUser.cshtml",
+              "DocumentMoniker": "C:\\Users\\lazar\\Desktop\\MvcToDo\\Views\\AdminPanel\\DeleteUser.cshtml",
+              "RelativeDocumentMoniker": "Views\\AdminPanel\\DeleteUser.cshtml",
+              "ToolTip": "C:\\Users\\lazar\\Desktop\\MvcToDo\\Views\\AdminPanel\\DeleteUser.cshtml",
+              "RelativeToolTip": "Views\\AdminPanel\\DeleteUser.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-31T17:04:53.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\lazar\\Desktop\\MvcToDo\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\lazar\\Desktop\\MvcToDo\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAgwEQAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T16:52:45.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lazar\\Desktop\\MvcToDo\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\lazar\\Desktop\\MvcToDo\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T16:21:18.92Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

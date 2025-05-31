@@ -979,7 +979,6 @@ C:\Users\lazar\Desktop\MvcToDo\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.c
 C:\Users\lazar\Desktop\MvcToDo\obj\Debug\net9.0\scopedcss\bundle\MvcMovie.styles.css
 C:\Users\lazar\Desktop\MvcToDo\obj\Debug\net9.0\scopedcss\projectbundle\MvcMovie.bundle.scp.css
 C:\Users\lazar\Desktop\MvcToDo\obj\Debug\net9.0\compressed\unlu0xluo6-eu7w3d5g1a.gz
-C:\Users\lazar\Desktop\MvcToDo\obj\Debug\net9.0\compressed\euikqtqh4l-p7jex226bq.gz
 C:\Users\lazar\Desktop\MvcToDo\obj\Debug\net9.0\compressed\s4h06sbw6r-61n19gt1b8.gz
 C:\Users\lazar\Desktop\MvcToDo\obj\Debug\net9.0\compressed\khii5gbrwk-fr7q2aak1r.gz
 C:\Users\lazar\Desktop\MvcToDo\obj\Debug\net9.0\compressed\l0e8hya28e-bqjiyaj88i.gz
@@ -1060,3 +1059,9 @@ C:\Users\lazar\Desktop\MvcToDo\obj\Debug\net9.0\refint\MvcMovie.dll
 C:\Users\lazar\Desktop\MvcToDo\obj\Debug\net9.0\MvcMovie.pdb
 C:\Users\lazar\Desktop\MvcToDo\obj\Debug\net9.0\MvcMovie.genruntimeconfig.cache
 C:\Users\lazar\Desktop\MvcToDo\obj\Debug\net9.0\ref\MvcMovie.dll
+C:\Users\lazar\Desktop\MvcToDo\bin\Debug\net9.0\Microsoft.OpenApi.dll
+C:\Users\lazar\Desktop\MvcToDo\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\lazar\Desktop\MvcToDo\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\lazar\Desktop\MvcToDo\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\lazar\Desktop\MvcToDo\obj\Debug\net9.0\MvcMovie.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\lazar\Desktop\MvcToDo\obj\Debug\net9.0\compressed\euikqtqh4l-nw6w1vrats.gz
